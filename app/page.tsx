@@ -25,7 +25,29 @@ export default function Home() {
               <img className="rounded-full h-10 mr-5" src="/user.png" />
               <div className="text-xl font-bold">Patient Information</div>
             </div>
-            <div>
+            <div className="flex justify-start pt-5 gap-50">
+              <div>
+                <div className="text-gray-700 text-sm">PATIENT NAME</div>
+                <div className="font-bold text-lg">Teresa Rose</div>
+              </div>
+              <div>
+                <div className="text-gray-700 text-sm">DATE OF BIRTH</div>
+                <div className="font-bold text-lg">July 30, 1960</div>
+              </div>
+              <div>
+                <div className="text-gray-700 text-sm">STUDY DATE</div>
+                <div className="font-bold text-lg text-blue-500">November 5, 2025</div>
+              </div>
+            </div>
+            <div className="flex justify-start pt-5 gap-48">
+              <div>
+                <div className="text-gray-700 text-sm">TECHNICIAN</div>
+                <div className="font-bold text-lg">Iyad Ismail, MD</div>
+              </div>
+              <div>
+                <div className="text-gray-700 text-sm">PRESENTING SYMPTOMS</div>
+                <div className="text-lg">Pain Lump Cancer Cyst, Cold symptoms or congestion, Wrist Pain or Injury - Right, Hip Pain or Injury - Right, Skin conditions: Mohs micrographic surgery - Nose/2012-09-12</div>
+              </div>
             </div>
           </div>
         </div>
