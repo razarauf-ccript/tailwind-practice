@@ -160,12 +160,15 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 m-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/user.png" />
-                <div className="text-xl font-bold">Breast Impressions & Findings</div>
+                <img className="rounded-full h-10 mr-5" src="/head.png" />
+                <div className="text-xl font-bold">Head Examination</div>
               </div>
-              <div>
-
-              </div>
+              <div className="text-l font-bold mt-5">Head Examination Summary</div>
+              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>No symptoms of a cold or nasal congestion were reported.</div></div>
+              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>There is no family history of strokes.</div></div>
+              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>Your last dental cleaning was completed within the past six months.</div></div>
+              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>You have had a wisdom tooth extraction.</div></div>
+              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>You have mercury fillings and crowns in place.</div></div>
             </div>
           </div>
         </div>
