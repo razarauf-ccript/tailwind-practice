@@ -79,6 +79,123 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/user.png" />
+                <div className="text-xl font-bold">Breast Impressions & Findings</div>
+              </div>
+              <div className="py-5">
+                November 5th, 2025. The patient presents with symptoms including pain, lump, cancer cyst, cold symptoms or congestion, right wrist pain or injury, right hip pain or injury, and a history of Mohs micrographic surgery on the nose in 2012.
+              </div>
+              <div className="flex justify-between gap-10">
+                <div className="p-10 rounded-xl bg-blue-50 w-200">
+                  <div className="flex items-center pb-5">
+                    <img className="rounded-full h-8 mr-5" src="/heat.png" />
+                    <div className="text-l font-bold">Temperature Measurements</div>
+                  </div>
+                  <div className="flex justify-between border-b-2 border-blue-100 mb-5">
+                    <div>Breast Global Temperature Difference</div>
+                    <div>0.06°C</div>
+                  </div>
+                  <div className="flex justify-between border-b-2 border-blue-100 mb-5">
+                    <div>Normal Threshold</div>
+                    <div>&lt; 0.3°C</div>
+                  </div>
+                  <div className="flex justify-between border-b-2 border-blue-100 mb-5">
+                    <div>Status</div>
+                    <div className="bg-green-100 px-5 py-1 text-green-700 rounded-xl">Within Normal Limits</div>
+                  </div>
+                </div>
+                <div className="p-10 rounded-xl bg-blue-50 w-200">
+                  <div className="flex items-center pb-5">
+                    <img className="rounded-full h-8 mr-5" src="/breast.png" />
+                    <div className="text-l font-bold">Nipple Temperature</div>
+                  </div>
+                  <div className="flex justify-between border-b-2 border-blue-100 mb-5">
+                    <div>Breast Nipple Temperature Difference</div>
+                    <div>0.71°C</div>
+                  </div>
+                  <div className="flex justify-between border-b-2 border-blue-100 mb-5">
+                    <div>Normal Threshold</div>
+                    <div>&lt; 1.0°C</div>
+                  </div>
+                  <div className="flex justify-between border-b-2 border-blue-100 mb-5">
+                    <div>Status</div>
+                    <div className="bg-green-100 px-5 py-1 text-green-700 rounded-xl">Within Normal Limits</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-100 border-l-3 border-blue-500 p-5 mt-5">
+                <div className="flex items-center pb-5">
+                  <img className="rounded-full h-8 mr-5" src="/microscope.png" />
+                  <div className="text-l font-bold">Thermovascular Evaluation</div>
+                </div>
+                <div className="flex items-center pb-5">
+                  <img className="rounded-full h-5 mr-5" src="/check.png" />
+                  <div>The thermovascular evaluation reveals symmetrical thermal patterns across both breasts, with no significant hyperthermic or hypothermic areas noted.</div>
+                </div>
+                <div className="flex items-center pb-5">
+                  <img className="rounded-full h-5 mr-5" src="/check.png" />
+                  <div>There is no evidence of focal hyperthermia in any specific quadrant, and the overall thermal distribution appears consistent with normal physiological patterns.</div>
+                </div>
+              </div>
+              <div className="bg-yellow-100 border-l-3 border-yellow-500 p-5 mt-5">
+                <div className="flex items-center pb-5">
+                  <img className="rounded-full h-8 mr-5" src="/lightbulb.png" />
+                  <div className="text-l font-bold">Recommendations</div>
+                </div>
+                <div>
+                  I recommend that the thermal findings from this exam be clinically correlated with any further diagnostic imaging deemed necessary by the client's healthcare provider. Follow-up breast thermography is advised in 6 months to form a baseline, compare subsequent testing, and monitor for changes.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/user.png" />
+                <div className="text-xl font-bold">Breast Impressions & Findings</div>
+              </div>
+              <div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/user.png" />
+                <div className="text-xl font-bold">Breast Impressions & Findings</div>
+              </div>
+              <div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/user.png" />
+                <div className="text-xl font-bold">Breast Impressions & Findings</div>
+              </div>
+              <div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </>
   );
