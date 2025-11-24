@@ -154,8 +154,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-
         <div className="bg-blue-50">
           <div className="pt-2 px-40">
             <div className="bg-white p-10 m-5 rounded-xl shadow-md">
@@ -172,19 +170,83 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="bg-blue-50">
           <div className="pt-2 px-40">
             <div className="bg-white p-10 m-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/user.png" />
-                <div className="text-xl font-bold">Breast Impressions & Findings</div>
+                <img className="rounded-full h-10 mr-5" src="/cancer.png" />
+                <div className="text-xl font-bold">Breast Health Report</div>
               </div>
               <div>
+
+                <div className="bg-blue-50 rounded-xl p-5 mt-5">
+                  <div className="flex items-center pb-5">
+                    <img className="rounded-full h-10 mr-5" src="/mammogram.png" />
+                    <div className="text-xl font-bold">Breast Health Report</div>
+                  </div>
+                  <div>Your mammogram performed on October 15, 2018, showed normal results, with no significant findings.</div>
+                </div>
+
+                <div className="bg-blue-50 rounded-xl p-5 mt-5">
+                  <div className="flex items-center pb-5">
+                    <img className="rounded-full h-10 mr-5" src="/tissue-culture.png" />
+                    <div className="text-xl font-bold">Breast Tissue</div>
+                  </div>
+                  <div>YYou have dense breast tissue, which is a common condition and does not indicate any problems.</div>
+                </div>
+
+                <div className="bg-blue-50 rounded-xl p-5 mt-5">
+                  <div className="flex items-center pb-5">
+                    <img className="rounded-full h-10 mr-5" src="/mammogram.png" />
+                    <div className="text-xl font-bold">Family History</div>
+                  </div>
+                  <div>There is a family history of cancer, but you have not been diagnosed with breast cancer.</div>
+                </div>
+
+                <div className="bg-blue-50 rounded-xl p-5 mt-5">
+                  <div className="flex items-center pb-5">
+                    <img className="rounded-full h-10 mr-5" src="/heart-rate.png" />
+                    <div className="text-xl font-bold">Breast Health History</div>
+                  </div>
+                  <div>You have experienced some breast health issues in the past, but there are no current concerns.</div>
+                </div>
+
+                <div className="bg-blue-100 border-l-3 border-blue-500 p-5 mt-5">
+                  <div className="text-l font-bold">Reproductive Health</div>
+                  <div className="grid grid-cols-2">
+                    <div>
+                      <div className="text-m font-bold mt-5">Menstrual Periods:</div>
+                      <div className="text-l font-light">You are not currently having menstrual periods.</div>
+                    </div>
+                    <div>
+                      <div className="text-m font-bold mt-5">Pregnancy:</div>
+                      <div className="text-l font-light">You are not currently pregnant.</div>
+                    </div>
+                    {/* </div> */}
+
+                    {/* <div className="flex justify-start"> */}
+                    <div>
+                      <div className="text-m font-bold mt-5">Breastfeeding:</div>
+                      <div className="text-l font-light">You are not breastfeeding at this time, but you have breastfed in the past.</div>
+                    </div>
+                    <div>
+                      <div className="text-m font-bold mt-5">Contraceptives:</div>
+                      <div className="text-l font-light">You are not using any contraceptive methods currently.</div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div className="italic mt-5">If you have any questions or concerns about your breast health, please feel free to reach out. We are here to support you.</div>
+
 
               </div>
             </div>
           </div>
         </div>
+
+
         <div className="bg-blue-50">
           <div className="pt-2 px-40">
             <div className="bg-white p-10 m-5 rounded-xl shadow-md">
