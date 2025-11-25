@@ -83,7 +83,7 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className=" h-10 mr-5" src="/user.png" />
+                <img className=" h-10 mr-5" src="/breast-2.png" />
                 <div className="text-xl font-bold">Breast Impressions & Findings</div>
               </div>
               <div className="py-5">
@@ -299,7 +299,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="mb-2 bg-blue-50">
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
@@ -323,6 +322,19 @@ export default function Home() {
                 <div>You may be experiencing stress or anxiety. It's normal to feel this way at times, and there are effective strategies and support available to help you manage these feelings.</div>
               </div>
               <div className="mt-4 italic">If you have any questions or need assistance, please feel free to reach out. Your health and comfort are our top priorities.</div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className=" h-10 mr-5" src="/exam.png" />
+                <div className="text-xl font-bold">Exam Notes</div>
+              </div>
+              <div className="mt-4">
+                We conducted a baseline scan to assess your current health status. This initial scan serves as a reference point for future evaluations and helps us understand your condition better. If you have any questions about the results or what to expect next, please feel free to ask.
+              </div>
             </div>
           </div>
         </div>
