@@ -51,8 +51,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="pb-2 px-40">
-          <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+        <div className="mb-2 px-40">
+          <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
             <div className="flex items-center border-b-3 border-blue-100 pb-5">
               <img className="h-10 mr-5" src="/stethoscope.png" />
               <div className="text-xl font-bold">Patient Symptoms</div>
@@ -79,9 +79,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-blue-50">
+        <div className="mb-2 bg-blue-50">
           <div className="pt-2 px-40">
-            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className="rounded-full h-10 mr-5" src="/user.png" />
                 <div className="text-xl font-bold">Breast Impressions & Findings</div>
@@ -154,9 +154,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="bg-blue-50">
+        <div className="mb-2 bg-blue-50">
           <div className="pt-2 px-40">
-            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className="rounded-full h-10 mr-5" src="/head.png" />
                 <div className="text-xl font-bold">Head Examination</div>
@@ -171,9 +171,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-blue-50">
+        <div className="mb-2 bg-blue-50">
           <div className="pt-2 px-40">
-            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className="rounded-full h-10 mr-5" src="/cancer.png" />
                 <div className="text-xl font-bold">Breast Health Report</div>
@@ -247,9 +247,9 @@ export default function Home() {
         </div>
 
 
-        <div className="bg-blue-50">
+        <div className="mb-2 bg-blue-50">
           <div className="pt-2 px-40">
-            <div className="bg-white p-10 m-5 rounded-xl shadow-md">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className="rounded-full h-10 mr-5" src="/user.png" />
                 <div className="text-xl font-bold">Breast Impressions & Findings</div>
