@@ -304,12 +304,37 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/user.png" />
-                <div className="text-xl font-bold">Breast Impressions & Findings</div>
+                <img className="rounded-full h-10 mr-5" src="/heart-variant.png" />
+                <div className="text-xl font-bold">Lifestyle</div>
               </div>
-              <div>
+              <div className="mt-2 font-bold">Current Lifestyle Factors:</div>
+              <div className="bg-blue-50 rounded-xl p-7 my-2">
+                <div className="flex items-center border-blue-100 pb-5">
+                  <img className="rounded-full h-6 mr-5" src="/coffee.png" />
+                  <div className="text-l font-bold">Caffeine Intake</div>
+                </div>
+                <div>You are currently using caffeine. It's important to monitor your consumption, as it can affect your overall health and well-being.</div>
+              </div>
+              <div className="bg-blue-50 rounded-xl p-7 my-2">
+                <div className="flex items-center border-blue-100 pb-5">
+                  <img className="rounded-full h-6 mr-5" src="/mindset.png" />
+                  <div className="text-l font-bold">Stress and Anxiety</div>
+                </div>
+                <div>You may be experiencing stress or anxiety. It's normal to feel this way at times, and there are effective strategies and support available to help you manage these feelings.</div>
+              </div>
+              <div className="mt-4 italic">If you have any questions or need assistance, please feel free to reach out. Your health and comfort are our top priorities.</div>
+            </div>
+          </div>
+        </div>
 
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/user.png" />
+                <div className="text-xl font-bold">HEADING</div>
               </div>
+              <div></div>
             </div>
           </div>
         </div>
