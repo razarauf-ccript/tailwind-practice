@@ -343,6 +343,63 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className=" h-10 mr-5" src="/mammography.png" />
+                <div className="text-xl font-bold">Breast Thermography</div>
+              </div>
+              <div className="mt-4">
+                Breast thermography is a supportive test that complements mammography and other imaging methods but does not replace them. It's important to understand that a negative result from a thermogram, mammogram, or ultrasound does not eliminate the need for a biopsy if your doctor believes it is necessary based on your clinical situation.
+              </div>
+              <div>
+                The primary benefit of thermography is that it is a non-invasive test that can accurately measure changes in skin temperature. This allows for the detection of subtle thermal changes that may occur years before any physical signs appear. While these changes are not definitive for diagnosis, they can prompt earlier investigations and preventive measures.
+              </div>
+
+              <div className="bg-yellow-100 border-l-3 border-yellow-500 p-5 mt-5">
+                <div className="flex items-center pb-5">
+                  <img className="h-8 mr-5" src="/lightbulb.png" />
+                  <div className="text-l font-bold">Recommendations</div>
+                </div>
+                <div>
+                  Since no single test can capture all the complex factors related to breast health, it is always recommended to follow up with additional tests, such as ultrasound, MRI, or mammography, as advised by your healthcare provider.
+                </div>
+              </div>
+              <div className="bg-blue-100 rounded-xl p-7 mt-4 my-2">
+                <div>This evaluation was interpreted and reviewed by <a href="" target="_blank" className="text-blue-500" >Thermographic Wellness, Inc.</a>, a certified service that adheres to the standards set by the Professional Academy of Clinical Thermology.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-blue-100 p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-blue-100 pb-5">
+                <img className=" h-10 mr-5" src="/doctor.png" />
+                <div className="text-xl font-bold">A Note to the Physician</div>
+              </div>
+              <div className="mt-4">This report includes a detailed skin surface temperature map, which can help connect temperature variations to the patient's overall health status.</div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className=" h-10 mr-5" src="/to-do-list.png" />
+                <div className="text-xl font-bold">Recommendations</div>
+              </div>
+              <div className="bg-yellow-100 border-l-3 border-yellow-500 p-5 mt-5">
+                <div>
+                  We recommend that your physician consider additional tests, such as an ultrasound or MRI, to further evaluate your condition. These tests can provide valuable information to support your diagnosis and treatment plan.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/user.png" />
                 <div className="text-xl font-bold">HEADING</div>
               </div>
