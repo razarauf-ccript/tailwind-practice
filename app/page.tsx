@@ -251,6 +251,59 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/fitness.png" />
+                <div className="text-xl font-bold">Abdomen</div>
+              </div>
+              <div className="mt-4">
+                The patient underwent a gynecological surgery, specifically a cesarean section, on November 11, 1986.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/fist.png" />
+                <div className="text-xl font-bold">Upper Extremities</div>
+              </div>
+              <div className="mt-4">
+                You are experiencing pain or an injury in your right wrist, which may involve fractures or dislocations. We will work together to assess your condition and determine the best treatment plan for your recovery.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/walk.png" />
+                <div className="text-xl font-bold">Lower Extremities: Right Hip Pain or Injury</div>
+              </div>
+              <div className="mt-4">
+                You are experiencing pain or discomfort in your right hip. This could be due to an injury or strain. We recommend monitoring your symptoms and considering rest, ice, and over-the-counter pain relief if needed. If the pain persists or worsens, please reach out for further evaluation and guidance. Your comfort and recovery are our top priorities.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className="rounded-full h-10 mr-5" src="/privacy.png" />
+                <div className="text-xl font-bold">Skin Evaluation</div>
+              </div>
+              <div className="mt-4">
+                In September 2012, you underwent Mohs micrographic surgery on your nose to treat a skin condition. This specialized procedure is designed to remove cancerous skin while preserving as much healthy tissue as possible. Your care team is here to support you and answer any questions you may have about your skin health moving forward.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className="rounded-full h-10 mr-5" src="/user.png" />
                 <div className="text-xl font-bold">Breast Impressions & Findings</div>
               </div>
