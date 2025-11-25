@@ -22,7 +22,7 @@ export default function Home() {
         <div className="pt-2 px-40">
           <div className="bg-white p-10 m-5 rounded-xl shadow-md">
             <div className="flex items-center border-b-3 border-blue-100 pb-5">
-              <img className="rounded-full h-10 mr-5" src="/user.png" />
+              <img className=" h-10 mr-5" src="/user.png" />
               <div className="text-xl font-bold">Patient Information</div>
             </div>
             <div className="flex justify-start pt-5 gap-50">
@@ -83,7 +83,7 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/user.png" />
+                <img className=" h-10 mr-5" src="/user.png" />
                 <div className="text-xl font-bold">Breast Impressions & Findings</div>
               </div>
               <div className="py-5">
@@ -92,7 +92,7 @@ export default function Home() {
               <div className="flex justify-between gap-10">
                 <div className="p-10 rounded-xl bg-blue-50 w-200">
                   <div className="flex items-center pb-5">
-                    <img className="rounded-full h-8 mr-5" src="/heat.png" />
+                    <img className=" h-8 mr-5" src="/heat.png" />
                     <div className="text-l font-bold">Temperature Measurements</div>
                   </div>
                   <div className="flex justify-between border-b-2 border-blue-100 mb-5">
@@ -110,7 +110,7 @@ export default function Home() {
                 </div>
                 <div className="p-10 rounded-xl bg-blue-50 w-200">
                   <div className="flex items-center pb-5">
-                    <img className="rounded-full h-8 mr-5" src="/breast.png" />
+                    <img className=" h-8 mr-5" src="/breast.png" />
                     <div className="text-l font-bold">Nipple Temperature</div>
                   </div>
                   <div className="flex justify-between border-b-2 border-blue-100 mb-5">
@@ -130,21 +130,21 @@ export default function Home() {
 
               <div className="bg-blue-100 border-l-3 border-blue-500 p-5 mt-5">
                 <div className="flex items-center pb-5">
-                  <img className="rounded-full h-8 mr-5" src="/microscope.png" />
+                  <img className=" h-8 mr-5" src="/microscope.png" />
                   <div className="text-l font-bold">Thermovascular Evaluation</div>
                 </div>
                 <div className="flex items-center pb-5">
-                  <img className="rounded-full h-5 mr-5" src="/check.png" />
+                  <img className=" h-5 mr-5" src="/check.png" />
                   <div>The thermovascular evaluation reveals symmetrical thermal patterns across both breasts, with no significant hyperthermic or hypothermic areas noted.</div>
                 </div>
                 <div className="flex items-center pb-5">
-                  <img className="rounded-full h-5 mr-5" src="/check.png" />
+                  <img className=" h-5 mr-5" src="/check.png" />
                   <div>There is no evidence of focal hyperthermia in any specific quadrant, and the overall thermal distribution appears consistent with normal physiological patterns.</div>
                 </div>
               </div>
               <div className="bg-yellow-100 border-l-3 border-yellow-500 p-5 mt-5">
                 <div className="flex items-center pb-5">
-                  <img className="rounded-full h-8 mr-5" src="/lightbulb.png" />
+                  <img className=" h-8 mr-5" src="/lightbulb.png" />
                   <div className="text-l font-bold">Recommendations</div>
                 </div>
                 <div>
@@ -158,15 +158,15 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/head.png" />
+                <img className=" h-10 mr-5" src="/head.png" />
                 <div className="text-xl font-bold">Head Examination</div>
               </div>
               <div className="text-l font-bold mt-5">Head Examination Summary</div>
-              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>No symptoms of a cold or nasal congestion were reported.</div></div>
-              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>There is no family history of strokes.</div></div>
-              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>Your last dental cleaning was completed within the past six months.</div></div>
-              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>You have had a wisdom tooth extraction.</div></div>
-              <div className="flex items-center mt-5"><div className="rounded-full border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>You have mercury fillings and crowns in place.</div></div>
+              <div className="flex items-center mt-5"><div className=" border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>No symptoms of a cold or nasal congestion were reported.</div></div>
+              <div className="flex items-center mt-5"><div className=" border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>There is no family history of strokes.</div></div>
+              <div className="flex items-center mt-5"><div className=" border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>Your last dental cleaning was completed within the past six months.</div></div>
+              <div className="flex items-center mt-5"><div className=" border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>You have had a wisdom tooth extraction.</div></div>
+              <div className="flex items-center mt-5"><div className=" border-blue-500 border-5 bg-blue-500 text-blue-500 h-3 w-3 mr-3"></div><div>You have mercury fillings and crowns in place.</div></div>
             </div>
           </div>
         </div>
@@ -175,14 +175,14 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/cancer.png" />
+                <img className=" h-10 mr-5" src="/cancer.png" />
                 <div className="text-xl font-bold">Breast Health Report</div>
               </div>
               <div>
 
                 <div className="bg-blue-50 rounded-xl p-5 mt-5">
                   <div className="flex items-center pb-5">
-                    <img className="rounded-full h-10 mr-5" src="/mammogram.png" />
+                    <img className=" h-10 mr-5" src="/mammogram.png" />
                     <div className="text-xl font-bold">Breast Health Report</div>
                   </div>
                   <div>Your mammogram performed on October 15, 2018, showed normal results, with no significant findings.</div>
@@ -190,7 +190,7 @@ export default function Home() {
 
                 <div className="bg-blue-50 rounded-xl p-5 mt-5">
                   <div className="flex items-center pb-5">
-                    <img className="rounded-full h-10 mr-5" src="/tissue-culture.png" />
+                    <img className=" h-10 mr-5" src="/tissue-culture.png" />
                     <div className="text-xl font-bold">Breast Tissue</div>
                   </div>
                   <div>YYou have dense breast tissue, which is a common condition and does not indicate any problems.</div>
@@ -198,7 +198,7 @@ export default function Home() {
 
                 <div className="bg-blue-50 rounded-xl p-5 mt-5">
                   <div className="flex items-center pb-5">
-                    <img className="rounded-full h-10 mr-5" src="/mammogram.png" />
+                    <img className=" h-10 mr-5" src="/mammogram.png" />
                     <div className="text-xl font-bold">Family History</div>
                   </div>
                   <div>There is a family history of cancer, but you have not been diagnosed with breast cancer.</div>
@@ -206,7 +206,7 @@ export default function Home() {
 
                 <div className="bg-blue-50 rounded-xl p-5 mt-5">
                   <div className="flex items-center pb-5">
-                    <img className="rounded-full h-10 mr-5" src="/heart-rate.png" />
+                    <img className=" h-10 mr-5" src="/heart-rate.png" />
                     <div className="text-xl font-bold">Breast Health History</div>
                   </div>
                   <div>You have experienced some breast health issues in the past, but there are no current concerns.</div>
@@ -251,7 +251,7 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/fitness.png" />
+                <img className=" h-10 mr-5" src="/fitness.png" />
                 <div className="text-xl font-bold">Abdomen</div>
               </div>
               <div className="mt-4">
@@ -264,7 +264,7 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/fist.png" />
+                <img className=" h-10 mr-5" src="/fist.png" />
                 <div className="text-xl font-bold">Upper Extremities</div>
               </div>
               <div className="mt-4">
@@ -277,7 +277,7 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/walk.png" />
+                <img className=" h-10 mr-5" src="/walk.png" />
                 <div className="text-xl font-bold">Lower Extremities: Right Hip Pain or Injury</div>
               </div>
               <div className="mt-4">
@@ -290,7 +290,7 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/privacy.png" />
+                <img className=" h-10 mr-5" src="/privacy.png" />
                 <div className="text-xl font-bold">Skin Evaluation</div>
               </div>
               <div className="mt-4">
@@ -304,20 +304,20 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/heart-variant.png" />
+                <img className=" h-10 mr-5" src="/heart-variant.png" />
                 <div className="text-xl font-bold">Lifestyle</div>
               </div>
               <div className="mt-2 font-bold">Current Lifestyle Factors:</div>
               <div className="bg-blue-50 rounded-xl p-7 my-2">
                 <div className="flex items-center border-blue-100 pb-5">
-                  <img className="rounded-full h-6 mr-5" src="/coffee.png" />
+                  <img className=" h-6 mr-5" src="/coffee.png" />
                   <div className="text-l font-bold">Caffeine Intake</div>
                 </div>
                 <div>You are currently using caffeine. It's important to monitor your consumption, as it can affect your overall health and well-being.</div>
               </div>
               <div className="bg-blue-50 rounded-xl p-7 my-2">
                 <div className="flex items-center border-blue-100 pb-5">
-                  <img className="rounded-full h-6 mr-5" src="/mindset.png" />
+                  <img className=" h-6 mr-5" src="/mindset.png" />
                   <div className="text-l font-bold">Stress and Anxiety</div>
                 </div>
                 <div>You may be experiencing stress or anxiety. It's normal to feel this way at times, and there are effective strategies and support available to help you manage these feelings.</div>
@@ -331,7 +331,7 @@ export default function Home() {
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className="rounded-full h-10 mr-5" src="/user.png" />
+                <img className=" h-10 mr-5" src="/user.png" />
                 <div className="text-xl font-bold">HEADING</div>
               </div>
               <div></div>
