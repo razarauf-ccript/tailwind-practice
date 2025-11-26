@@ -1,2 +1,22 @@
 @import "tailwindcss";
 
+@media screen and (max-width: 767px) {
+    .removepadding {
+        padding: 0px;
+    }
+
+    .footerpadding {
+        padding: 0 40px 0 40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .addpadding {
+        padding: 0 40px 0 40px;
+    }
+
+    .addflex {
+        display: flex;
+        column-gap: 200px;
+    }
+}

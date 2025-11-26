@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="border-b-4 border-blue-500 px-40">
+      <div className="border-b-4 border-blue-500 removepadding addpadding">
         <nav className="m-5 flex justify-between items-center">
           <span className="flex items-center">
             <div className="bg-blue-500 p-3 m-5 w-15 rounded-md"><img src="/heat.png" className="h-8" /></div>
@@ -19,7 +19,7 @@ export default function Home() {
         </nav>
       </div>
       <div className="bg-blue-50">
-        <div className="pt-2 px-40">
+        <div className="pt-2 removepadding addpadding">
           <div className="bg-white p-10 m-5 rounded-xl shadow-md">
             <div className="flex items-center border-b-3 border-blue-100 pb-5">
               <img className=" h-10 mr-5" src="/user.png" />
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mb-2 px-40">
+        <div className="mb-2 removepadding addpadding">
           <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
             <div className="flex items-center border-b-3 border-blue-100 pb-5">
               <img className="h-10 mr-5" src="/stethoscope.png" />
@@ -80,7 +80,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/breast-2.png" />
@@ -155,7 +155,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/head.png" />
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
 
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/cancer.png" />
@@ -248,7 +248,7 @@ export default function Home() {
 
 
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/fitness.png" />
@@ -261,7 +261,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/fist.png" />
@@ -274,7 +274,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/walk.png" />
@@ -287,7 +287,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/privacy.png" />
@@ -300,7 +300,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/heart-variant.png" />
@@ -326,7 +326,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/exam.png" />
@@ -340,7 +340,7 @@ export default function Home() {
         </div>
 
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/mammography.png" />
@@ -369,7 +369,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-blue-100 p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/doctor.png" />
@@ -380,7 +380,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/to-do-list.png" />
@@ -396,7 +396,7 @@ export default function Home() {
         </div>
 
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className="h-10 mr-5" src="/thermal-imager.png" />
@@ -457,7 +457,7 @@ export default function Home() {
           </div>
         </div>
         <div className="mb-2 bg-blue-50">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-blue-100 p-10 mx-5 rounded-xl shadow-md border-2 border-blue-200">
               <div className="flex items-center  pb-5">
                 <img className="h-10 mr-5" src="/chart.png" />
@@ -474,7 +474,7 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-blue-50 pb-30">
-          <div className="pt-2 px-40">
+          <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
                 <img className=" h-10 mr-5" src="/calendar.png" />
@@ -507,8 +507,8 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-blue-950">
-        <div className="pt-2 px-40 ">
-          <div className="flex gap-40 text-gray-400 border-b-2 border-gray-400 pb-10">
+        <div className="pt-2 removepadding addpadding footerpadding">
+          <div className="addflex text-gray-400 border-b-2 border-gray-400 pb-10">
             <div className="w-120">
               <span className="flex items-center">
                 <div className="bg-blue-500 p-3 m-5 w-12 rounded-md"><img src="/heat.png" className="h-6" /></div>
@@ -525,7 +525,7 @@ export default function Home() {
               <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/pin.png" />123 Medical Plaza, Suite 456</div>
             </div>
             <div className="pt-7">
-              <div className="text-xl font-bold text-white">Contact Information</div>
+              <div className="text-xl font-bold text-white">Professional Affiliations</div>
               <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/verification.png" />Professional Academy of Clinical Thermology</div>
               <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/medal.png" />Certified Medical Imaging Facility</div>
             </div>
