@@ -108,7 +108,7 @@ export default function Home() {
                     <div className="bg-green-100 px-5 py-1 text-green-700 rounded-xl">Within Normal Limits</div>
                   </div>
                 </div>
-                <div className="p-10 rounded-xl bg-blue-50 flex-grow sm:mt-10">
+                <div className="p-10 rounded-xl bg-blue-50 flex-grow addmargin">
                   <div className="flex items-center pb-5">
                     <img className=" h-8 mr-5" src="/breast.png" />
                     <div className="text-l font-bold">Nipple Temperature</div>
@@ -402,7 +402,7 @@ export default function Home() {
                 <img className="h-10 mr-5" src="/thermal-imager.png" />
                 <div className="text-xl font-bold">Thermal Imaging Studies</div>
               </div>
-              <div className="flex gap-5 flex-wrap">
+              <div className="flex gap-5 flex-wrap images">
                 <div className="w-100">
                   <img className="rounded-t-xl h-100 mt-4" src="/image1.png" />
                   <div className="rounded-b-xl bg-blue-50 w-100">

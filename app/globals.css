@@ -1,5 +1,14 @@
 @import "tailwindcss";
 
+.images>img {
+    max-width: 100%;
+    /* Ensures the image never exceeds the width of its parent */
+    height: auto;
+    /* Maintains the aspect ratio, preventing distortion */
+    display: block;
+    /* Optional: Removes extra space below the image if it's inline */
+}
+
 @media screen and (max-width: 767px) {
     .removepadding {
         padding: 10px 0px;
