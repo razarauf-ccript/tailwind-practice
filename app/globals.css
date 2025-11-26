@@ -2,17 +2,21 @@
 
 @media screen and (max-width: 767px) {
     .removepadding {
-        padding: 0px;
+        padding: 10px 0px;
     }
 
     .footerpadding {
         padding: 0 40px 0 40px;
     }
+
+    .addmargin {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .addpadding {
-        padding: 0 40px 0 40px;
+        padding: 10px 40px 0 40px;
     }
 
     .addflex {

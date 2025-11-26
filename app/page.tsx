@@ -5,17 +5,17 @@ export default function Home() {
     <>
       <div className="border-b-4 border-blue-500 removepadding addpadding">
         <nav className="m-5 flex justify-between items-center">
-          <span className="flex items-center">
+          <div className="flex items-center">
             <div className="bg-blue-500 p-3 m-5 w-15 rounded-md"><img src="/heat.png" className="h-8" /></div>
-            <span>
+            <div>
               <div className="text-xl font-bold">Thermographic Wellness, Inc.</div>
               <div className="text-md font-light">Medical Imaging Report</div>
-            </span>
-          </span>
-          <span className="flex content-center">
-            <span className="flex items-center bg-blue-500 py-3 px-4 rounded-md"><img src="/printer.png" className="h-5 mr-5" />Print Report</span>
-            <span className="flex items-center bg-gray-200 py-3 px-4 rounded-md ml-5"><img src="/download.png" className="h-5 mr-5" />Download PDF</span>
-          </span>
+            </div>
+          </div>
+          <div className="md:flex justify-center">
+            <div className="flex items-center bg-blue-500 py-3 px-4 rounded-md"><img src="/printer.png" className="h-5 mr-5" />Print Report</div>
+            <div className="flex items-center bg-gray-200 py-3 px-4 rounded-md addmargin md:ml-5 "><img src="/download.png" className="h-5 mr-5" />Download PDF</div>
+          </div>
         </nav>
       </div>
       <div className="bg-blue-50">
@@ -25,7 +25,7 @@ export default function Home() {
               <img className=" h-10 mr-5" src="/user.png" />
               <div className="text-xl font-bold">Patient Information</div>
             </div>
-            <div className="flex justify-start pt-5 gap-50">
+            <div className="md:flex pt-5 gap-50">
               <div>
                 <div className="text-gray-700 text-sm">PATIENT NAME</div>
                 <div className="font-bold text-lg">Teresa Rose</div>
@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="font-bold text-lg text-blue-500">November 5, 2025</div>
               </div>
             </div>
-            <div className="flex justify-start pt-5 gap-48">
+            <div className="md:flex md:pt-5 gap-48">
               <div>
                 <div className="text-gray-700 text-sm">TECHNICIAN</div>
                 <div className="font-bold text-lg">Iyad Ismail, MD</div>
@@ -89,8 +89,8 @@ export default function Home() {
               <div className="py-5">
                 November 5th, 2025. The patient presents with symptoms including pain, lump, cancer cyst, cold symptoms or congestion, right wrist pain or injury, right hip pain or injury, and a history of Mohs micrographic surgery on the nose in 2012.
               </div>
-              <div className="flex justify-between gap-10">
-                <div className="p-10 rounded-xl bg-blue-50 w-200">
+              <div className="md:flex justify-between gap-10">
+                <div className="p-10 rounded-xl bg-blue-50 flex-grow">
                   <div className="flex items-center pb-5">
                     <img className=" h-8 mr-5" src="/heat.png" />
                     <div className="text-l font-bold">Temperature Measurements</div>
@@ -108,7 +108,7 @@ export default function Home() {
                     <div className="bg-green-100 px-5 py-1 text-green-700 rounded-xl">Within Normal Limits</div>
                   </div>
                 </div>
-                <div className="p-10 rounded-xl bg-blue-50 w-200">
+                <div className="p-10 rounded-xl bg-blue-50 flex-grow sm:mt-10">
                   <div className="flex items-center pb-5">
                     <img className=" h-8 mr-5" src="/breast.png" />
                     <div className="text-l font-bold">Nipple Temperature</div>
@@ -477,7 +477,7 @@ export default function Home() {
           <div className="pt-2 removepadding addpadding">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className=" h-10 mr-5" src="/calendar.png" />
+                <img className="h-10 mr-5" src="/calendar.png" />
                 <div className="text-xl font-bold">Follow-Up Plan</div>
               </div>
               <div className="flex justify-between gap">
@@ -514,7 +514,7 @@ export default function Home() {
                 <div className="bg-blue-500 p-3 m-5 w-12 rounded-md"><img src="/heat.png" className="h-6" /></div>
                 <div className="text-xl font-bold text-white">Thermographic Wellness, Inc.</div>
               </span>
-              <div className="pl-4">
+              <div className="md:pl-4">
                 Professional medical thermal imaging services adhering to the highest standards of clinical thermology.
               </div>
             </div>
@@ -531,9 +531,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex justify-between text-gray-400 py-8">
+          <div className="md:flex md:justify-between text-gray-400 py-8">
             <div>&copy;2025 Thermographic Wellness, Inc. All rights reserved.</div>
-            <div className="flex gap-20">
+            <div className="md:flex md:gap-20">
               <div>Privacy Policy</div>
               <div>Terms of Service</div>
               <div>Accessibility</div>
