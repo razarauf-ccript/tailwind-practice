@@ -403,44 +403,44 @@ export default function Home() {
                 <div className="text-xl font-bold">Thermal Imaging Studies</div>
               </div>
               <div className="flex gap-5 flex-wrap images">
-                <div className="w-100">
-                  <img className="rounded-t-xl h-100 mt-4" src="/image1.png" />
-                  <div className="rounded-b-xl bg-blue-50 w-100">
+                <div className="md:w-100">
+                  <img className="rounded-t-xl mt-4" src="/image1.png" />
+                  <div className="rounded-b-xl bg-blue-50">
                     <div className="font-bold pl-4 pt-4">Anterior View</div>
                     <div className="pl-4 py-4">Frontal thermal imaging scan</div>
                   </div>
                 </div>
-                <div className="w-100">
-                  <img className="rounded-t-xl h-100 mt-4" src="/Left-Lateral-View.png" />
-                  <div className="rounded-b-xl bg-blue-50 w-100">
+                <div className="md:w-100">
+                  <img className="rounded-t-xl mt-4" src="/Left-Lateral-View.png" />
+                  <div className="rounded-b-xl bg-blue-50">
                     <div className="font-bold pl-4 pt-4">Left Lateral View</div>
                     <div className="pl-4 py-4">Left side thermal imaging scan</div>
                   </div>
                 </div>
-                <div className="w-100">
-                  <img className="rounded-t-xl h-100 mt-4" src="/Right-Lateral-View.png" />
-                  <div className="rounded-b-xl bg-blue-50 w-100">
+                <div className="md:w-100">
+                  <img className="rounded-t-xl mt-4" src="/Right-Lateral-View.png" />
+                  <div className="rounded-b-xl bg-blue-50">
                     <div className="font-bold pl-4 pt-4">Right Lateral View</div>
                     <div className="pl-4 py-4">Right side thermal imaging scan</div>
                   </div>
                 </div>
-                <div className="w-100">
-                  <img className="rounded-t-xl h-100 mt-4" src="/Upper-Body-Anterior.png" />
-                  <div className="rounded-b-xl bg-blue-50 w-100">
+                <div className="md:w-100">
+                  <img className="rounded-t-xl mt-4" src="/Upper-Body-Anterior.png" />
+                  <div className="rounded-b-xl bg-blue-50">
                     <div className="font-bold pl-4 pt-4">Upper Body Anterior</div>
                     <div className="pl-4 py-4">Full torso frontal thermal scan</div>
                   </div>
                 </div>
-                <div className="w-100">
-                  <img className="rounded-t-xl h-100 mt-4" src="/Oblique-View.png" />
-                  <div className="rounded-b-xl bg-blue-50 w-100">
+                <div className="md:w-100">
+                  <img className="rounded-t-xl mt-4" src="/Oblique-View.png" />
+                  <div className="rounded-b-xl bg-blue-50">
                     <div className="font-bold pl-4 pt-4">Oblique View</div>
                     <div className="pl-4 py-4">Angled thermal imaging scan</div>
                   </div>
                 </div>
-                <div className="w-100">
-                  <img className="rounded-t-xl h-100 mt-4" src="/Detailed-Close-up.png" />
-                  <div className="rounded-b-xl bg-blue-50 w-100">
+                <div className="md:w-100">
+                  <img className="rounded-t-xl mt-4" src="/Detailed-Close-up.png" />
+                  <div className="rounded-b-xl bg-blue-50">
                     <div className="font-bold pl-4 pt-4">Detailed Close-up</div>
                     <div className="pl-4 py-4">High-resolution thermal detail</div>
                   </div>
