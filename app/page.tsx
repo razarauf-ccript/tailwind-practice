@@ -456,7 +456,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
         <div className="mb-2 bg-blue-50">
           <div className="pt-2 px-40">
             <div className="bg-blue-100 p-10 mx-5 rounded-xl shadow-md border-2 border-blue-200">
@@ -474,7 +473,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mb-2 bg-blue-50 pb-30">
+        <div className="bg-blue-50 pb-30">
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
@@ -503,6 +502,41 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-blue-950">
+        <div className="pt-2 px-40 ">
+          <div className="flex gap-40 text-gray-400 border-b-2 border-gray-400 pb-10">
+            <div className="w-120">
+              <span className="flex items-center">
+                <div className="bg-blue-500 p-3 m-5 w-12 rounded-md"><img src="/heat.png" className="h-6" /></div>
+                <div className="text-xl font-bold text-white">Thermographic Wellness, Inc.</div>
+              </span>
+              <div className="pl-4">
+                Professional medical thermal imaging services adhering to the highest standards of clinical thermology.
+              </div>
+            </div>
+            <div className="pt-7">
+              <div className="text-xl font-bold text-white">Contact Information</div>
+              <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/telephone.png" />(555) 123-4567</div>
+              <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/mail.png" />info@thermowellness.com</div>
+              <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/pin.png" />123 Medical Plaza, Suite 456</div>
+            </div>
+            <div className="pt-7">
+              <div className="text-xl font-bold text-white">Contact Information</div>
+              <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/verification.png" />Professional Academy of Clinical Thermology</div>
+              <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/medal.png" />Certified Medical Imaging Facility</div>
+            </div>
+          </div>
+
+          <div className="flex justify-between text-gray-400 py-8">
+            <div>&copy;2025 Thermographic Wellness, Inc. All rights reserved.</div>
+            <div className="flex gap-20">
+              <div>Privacy Policy</div>
+              <div>Terms of Service</div>
+              <div>Accessibility</div>
             </div>
           </div>
         </div>
