@@ -395,19 +395,117 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className="mb-2 bg-blue-50">
           <div className="pt-2 px-40">
             <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
               <div className="flex items-center border-b-3 border-blue-100 pb-5">
-                <img className=" h-10 mr-5" src="/user.png" />
-                <div className="text-xl font-bold">HEADING</div>
+                <img className="h-10 mr-5" src="/thermal-imager.png" />
+                <div className="text-xl font-bold">Thermal Imaging Studies</div>
               </div>
-              <div></div>
+              <div className="flex gap-5 flex-wrap">
+                <div className="w-100">
+                  <img className="rounded-t-xl h-100 mt-4" src="/image1.png" />
+                  <div className="rounded-b-xl bg-blue-50 w-100">
+                    <div className="font-bold pl-4 pt-4">Anterior View</div>
+                    <div className="pl-4 py-4">Frontal thermal imaging scan</div>
+                  </div>
+                </div>
+                <div className="w-100">
+                  <img className="rounded-t-xl h-100 mt-4" src="/Left-Lateral-View.png" />
+                  <div className="rounded-b-xl bg-blue-50 w-100">
+                    <div className="font-bold pl-4 pt-4">Left Lateral View</div>
+                    <div className="pl-4 py-4">Left side thermal imaging scan</div>
+                  </div>
+                </div>
+                <div className="w-100">
+                  <img className="rounded-t-xl h-100 mt-4" src="/Right-Lateral-View.png" />
+                  <div className="rounded-b-xl bg-blue-50 w-100">
+                    <div className="font-bold pl-4 pt-4">Right Lateral View</div>
+                    <div className="pl-4 py-4">Right side thermal imaging scan</div>
+                  </div>
+                </div>
+                <div className="w-100">
+                  <img className="rounded-t-xl h-100 mt-4" src="/Upper-Body-Anterior.png" />
+                  <div className="rounded-b-xl bg-blue-50 w-100">
+                    <div className="font-bold pl-4 pt-4">Upper Body Anterior</div>
+                    <div className="pl-4 py-4">Full torso frontal thermal scan</div>
+                  </div>
+                </div>
+                <div className="w-100">
+                  <img className="rounded-t-xl h-100 mt-4" src="/Oblique-View.png" />
+                  <div className="rounded-b-xl bg-blue-50 w-100">
+                    <div className="font-bold pl-4 pt-4">Oblique View</div>
+                    <div className="pl-4 py-4">Angled thermal imaging scan</div>
+                  </div>
+                </div>
+                <div className="w-100">
+                  <img className="rounded-t-xl h-100 mt-4" src="/Detailed-Close-up.png" />
+                  <div className="rounded-b-xl bg-blue-50 w-100">
+                    <div className="font-bold pl-4 pt-4">Detailed Close-up</div>
+                    <div className="pl-4 py-4">High-resolution thermal detail</div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-blue-100 p-10 mt-5 rounded-xl shadow-md border-2 border-blue-200">
+                <div className="mt-4">
+                  <span className="font-bold"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/information.png" />Note: </span>
+                  Thermal images show temperature variations on the skin surface. Warmer areas appear in lighter colors (yellow, red), while cooler areas appear in darker colors (blue, purple). These patterns help identify areas of concern that warrant further clinical evaluation.
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
+        <div className="mb-2 bg-blue-50">
+          <div className="pt-2 px-40">
+            <div className="bg-blue-100 p-10 mx-5 rounded-xl shadow-md border-2 border-blue-200">
+              <div className="flex items-center  pb-5">
+                <img className="h-10 mr-5" src="/chart.png" />
+                <div className="text-xl font-bold">Clinical Correlation</div>
+              </div>
+              <div>The thermal imaging findings presented in this report should be interpreted in conjunction with:</div>
+              <div className="pl-5 pt-2">
+                <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/right-chevron.png" />Clinical examination findings and patient history </div>
+                <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/right-chevron.png" />Results from conventional imaging modalities (mammography, ultrasound, MRI) </div>
+                <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/right-chevron.png" />Laboratory test results and other diagnostic procedures </div>
+                <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/right-chevron.png" />Patient's overall health status and risk factors </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mb-2 bg-blue-50 pb-30">
+          <div className="pt-2 px-40">
+            <div className="bg-white p-10 mx-5 rounded-xl shadow-md">
+              <div className="flex items-center border-b-3 border-blue-100 pb-5">
+                <img className=" h-10 mr-5" src="/calendar.png" />
+                <div className="text-xl font-bold">Follow-Up Plan</div>
+              </div>
+              <div className="flex justify-between gap">
+                <div className="bg-blue-100 border-l-3 border-blue-500 p-5 mt-5 rounded-xl flex-grow mr-10">
+                  <div className="flex items-center pb-5">
+                    <img className=" h-8 mr-5" src="/clock.png" />
+                    <div className="text-l font-bold">Next Appointment</div>
+                  </div>
+                  <div className="my-2">Recommended follow-up thermography:</div>
+                  <div className="my-2 font-bold text-blue-500 text-xl">6 Months</div>
+                  <div className="my-2 font-thin text-sm">Approximately May 2026</div>
+                </div>
+                <div className="bg-yellow-100 border-l-3 border-yellow-500 p-5 mt-5 rounded-xl flex-grow">
+                  <div className="flex items-center pb-5">
+                    <img className=" h-8 mr-5" src="/alert.png" />
+                    <div className="text-l font-bold">Important Reminders</div>
+                  </div>
+                  <div>
+                    <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/check.png" />Continue regular self-examinations</div>
+                    <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/check.png" />Report any new symptoms immediately</div>
+                    <div className="my-2"><img className="h-5 mr-2 pb-1" style={{ display: "inline-block" }} src="/check.png" />Maintain scheduled mammogram appointments</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
